@@ -12,7 +12,7 @@ describe(`Welcome Screen component`, () => {
     const component = shallow(<WelcomeScreen
       time={0}
       errorCount={0}
-      onClick={onClick}
+      onStartButtonClick={onClick}
     />);
 
     const welcomeButton = component.find(`.welcome__button`);

@@ -9,7 +9,7 @@ describe(`Welcome Screen component`, () => {
       .create(<WelcomeScreen
         time={0}
         errorCount={0}
-        onClick={() => {}}
+        onStartButtonClick={() => {}}
       />)
       .toJSON();
 
