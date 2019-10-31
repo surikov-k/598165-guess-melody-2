@@ -93,15 +93,16 @@ exports[`<GenreQuestionScreen renderes correctly 1`] = `
         className="track"
       >
         <button
-          className="track__button track__button--play"
+          className="track__button
+            track__button--play"
+          disabled={true}
+          onClick={[Function]}
           type="button"
         />
         <div
           className="track__status"
         >
-          <audio
-            src=""
-          />
+          <audio />
         </div>
         <div
           className="game__answer"
@@ -125,15 +126,16 @@ exports[`<GenreQuestionScreen renderes correctly 1`] = `
         className="track"
       >
         <button
-          className="track__button track__button--play"
+          className="track__button
+            track__button--play"
+          disabled={true}
+          onClick={[Function]}
           type="button"
         />
         <div
           className="track__status"
         >
-          <audio
-            src=""
-          />
+          <audio />
         </div>
         <div
           className="game__answer"
@@ -157,15 +159,16 @@ exports[`<GenreQuestionScreen renderes correctly 1`] = `
         className="track"
       >
         <button
-          className="track__button track__button--play"
+          className="track__button
+            track__button--play"
+          disabled={true}
+          onClick={[Function]}
           type="button"
         />
         <div
           className="track__status"
         >
-          <audio
-            src=""
-          />
+          <audio />
         </div>
         <div
           className="game__answer"
@@ -189,15 +192,16 @@ exports[`<GenreQuestionScreen renderes correctly 1`] = `
         className="track"
       >
         <button
-          className="track__button track__button--play"
+          className="track__button
+            track__button--play"
+          disabled={true}
+          onClick={[Function]}
           type="button"
         />
         <div
           className="track__status"
         >
-          <audio
-            src=""
-          />
+          <audio />
         </div>
         <div
           className="game__answer"
