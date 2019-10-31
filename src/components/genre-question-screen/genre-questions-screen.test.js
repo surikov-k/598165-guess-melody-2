@@ -34,7 +34,18 @@ describe(`<GenreQuestionScreen`, () => {
           <GenreQuestionsScreen
             game={game}
             onAnswer={() => {}}
-          />
+          />,
+          {
+            createNodeMock: () => {
+              return {
+                oncanplaythrough: null,
+                onplay: null,
+                onpause: null,
+                ontimeupdate: null,
+                src: ``
+              };
+            }
+          }
       )
       .toJSON();
 
